@@ -17,7 +17,7 @@ import java.awt.image.Raster;
    
    
 public class GaborFeature  {   
-   
+   //feature extraction
     private static final double U_H = .4;   
     private static final double U_L = .05;   
     private static final int S = 4, T = 4; // filter mask size   
