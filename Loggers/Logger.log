@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-03-25T00:14:51</date>
+  <millis>1521917091801</millis>
+  <sequence>0</sequence>
+  <logger>UIL.FrameRecognizer</logger>
+  <level>WARNING</level>
+  <class>UIL.FrameRecognizer</class>
+  <method>recognizeFaces</method>
+  <thread>14</thread>
+  <message>Cannot retrive values {0}</message>
+  <exception>
+    <message>java.sql.SQLException: Column Index out of range, 7 &gt; 6. </message>
+    <frame>
+      <class>com.mysql.jdbc.SQLError</class>
+      <method>createSQLException</method>
+      <line>964</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.SQLError</class>
+      <method>createSQLException</method>
+      <line>897</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.SQLError</class>
+      <method>createSQLException</method>
+      <line>886</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.SQLError</class>
+      <method>createSQLException</method>
+      <line>860</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.ResultSetImpl</class>
+      <method>checkColumnBounds</method>
+      <line>767</line>
+    </frame>
+    <frame>
+      <class>com.mysql.jdbc.ResultSetImpl</class>
+      <method>getInt</method>
+      <line>2473</line>
+    </frame>
+    <frame>
+      <class>UIL.FrameRecognizer</class>
+      <method>recognizeFaces</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>UIL.FrameRecognizer</class>
+      <method>btnVerifyActionPerformed</method>
+      <line>325</line>
+    </frame>
+    <frame>
+      <class>UIL.FrameRecognizer</class>
+      <method>access$100</method>
+      <line>41</line>
+    </frame>
+    <frame>
+      <class>UIL.FrameRecognizer$1</class>
+      <method>actionPerformed</method>
+      <line>211</line>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton</class>
+      <method>fireActionPerformed</method>
+      <line>2018</line>
+    </frame>
+    <frame>
+      <class>javax.swing.AbstractButton$Handler</class>
+      <method>actionPerformed</method>
+      <line>2341</line>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>fireActionPerformed</method>
+      <line>402</line>
+    </frame>
+    <frame>
+      <class>javax.swing.DefaultButtonModel</class>
+      <method>setPressed</method>
+      <line>259</line>
+    </frame>
+    <frame>
+      <class>javax.swing.plaf.basic.BasicButtonListener</class>
+      <method>mouseReleased</method>
+      <line>252</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processMouseEvent</method>
+      <line>6505</line>
+    </frame>
+    <frame>
+      <class>javax.swing.JComponent</class>
+      <method>processMouseEvent</method>
+      <line>3320</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>processEvent</method>
+      <line>6270</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>processEvent</method>
+      <line>2229</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEventImpl</method>
+      <line>4861</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2287</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4687</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>retargetMouseEvent</method>
+      <line>4832</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>processMouseEvent</method>
+      <line>4492</line>
+    </frame>
+    <frame>
+      <class>java.awt.LightweightDispatcher</class>
+      <method>dispatchEvent</method>
+      <line>4422</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2273</line>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>dispatchEventImpl</method>
+      <line>2719</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4687</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEventImpl</method>
+      <line>735</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>access$200</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$3</class>
+      <method>run</method>
+      <line>694</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$3</class>
+      <method>run</method>
+      <line>692</line>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$1</class>
+      <method>doIntersectionPrivilege</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$1</class>
+      <method>doIntersectionPrivilege</method>
+      <line>87</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>708</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>706</line>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$1</class>
+      <method>doIntersectionPrivilege</method>
+      <line>76</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEvent</method>
+      <line>705</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpOneEventForFilters</method>
+      <line>242</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+      <line>161</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForHierarchy</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>146</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>138</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>run</method>
+      <line>91</line>
+    </frame>
+  </exception>
+</record>
+</log>
+Mar 25, 2018 12:18:53 AM UIL.FrameRecognizer recognizeFaces
+WARNING: Cannot retrive values {0}
+java.sql.SQLException: Column Index out of range, 7 > 6. 
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.ResultSetImpl.checkColumnBounds(ResultSetImpl.java:767)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2473)
+	at UIL.FrameRecognizer.recognizeFaces(FrameRecognizer.java:156)
+	at UIL.FrameRecognizer.btnVerifyActionPerformed(FrameRecognizer.java:328)
+	at UIL.FrameRecognizer.access$100(FrameRecognizer.java:42)
+	at UIL.FrameRecognizer$1.actionPerformed(FrameRecognizer.java:214)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+
+Mar 25, 2018 9:01:54 PM UIL.FrameTraining btnTrainActionPerformed
+SEVERE: Error reading file!
+org.neuroph.core.exceptions.NeurophException: Error reading file!
+	at org.neuroph.core.data.DataSet.load(DataSet.java:404)
+	at BLL.NeuralNet.trainNetwork(NeuralNet.java:108)
+	at UIL.FrameTraining.btnTrainActionPerformed(FrameTraining.java:235)
+	at UIL.FrameTraining.access$100(FrameTraining.java:25)
+	at UIL.FrameTraining$2.actionPerformed(FrameTraining.java:114)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.io.StreamCorruptedException: invalid stream header: 302E302C
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:804)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:299)
+	at org.neuroph.core.data.DataSet.load(DataSet.java:398)
+	... 40 more
+
+Mar 25, 2018 9:03:43 PM UIL.FrameTraining btnTrainActionPerformed
+SEVERE: Error reading file!
+org.neuroph.core.exceptions.NeurophException: Error reading file!
+	at org.neuroph.core.data.DataSet.load(DataSet.java:404)
+	at BLL.NeuralNet.trainNetwork(NeuralNet.java:108)
+	at UIL.FrameTraining.btnTrainActionPerformed(FrameTraining.java:235)
+	at UIL.FrameTraining.access$100(FrameTraining.java:25)
+	at UIL.FrameTraining$2.actionPerformed(FrameTraining.java:114)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.io.StreamCorruptedException: invalid stream header: 302E302C
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:804)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:299)
+	at org.neuroph.core.data.DataSet.load(DataSet.java:398)
+	... 40 more
+
+Mar 25, 2018 9:04:01 PM UIL.FrameTraining btnTrainActionPerformed
+SEVERE: Error reading file!
+org.neuroph.core.exceptions.NeurophException: Error reading file!
+	at org.neuroph.core.data.DataSet.load(DataSet.java:404)
+	at BLL.NeuralNet.trainNetwork(NeuralNet.java:108)
+	at UIL.FrameTraining.btnTrainActionPerformed(FrameTraining.java:235)
+	at UIL.FrameTraining.access$100(FrameTraining.java:25)
+	at UIL.FrameTraining$2.actionPerformed(FrameTraining.java:114)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.io.StreamCorruptedException: invalid stream header: 302E302C
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:804)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:299)
+	at org.neuroph.core.data.DataSet.load(DataSet.java:398)
+	... 40 more
+
+Apr 01, 2018 12:14:09 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 12:37:30 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 12:43:52 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 12:45:55 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 12:45:55 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 12:46:03 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 12:47:42 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 12:50:13 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 12:50:13 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 12:50:26 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 1:39:40 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 1:39:40 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 1:40:10 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 1:44:32 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 1:44:32 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 1:46:29 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 1:46:30 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 3:01:01 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 3:01:01 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 3:05:17 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 3:05:17 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 3:11:28 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 3:11:28 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 3:14:51 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 3:14:51 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 3:19:23 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 3:19:23 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 3:25:39 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 3:25:39 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 5:23:59 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 5:35:48 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 8:35:03 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 8:36:21 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 8:36:41 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:01:42 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:18:49 PM UIL.FrameAdministrator btnNewcustomerActionPerformed
+SEVERE: null
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameAdministrator.btnNewcustomerActionPerformed(FrameAdministrator.java:467)
+	at UIL.FrameAdministrator.access$200(FrameAdministrator.java:31)
+	at UIL.FrameAdministrator$3.actionPerformed(FrameAdministrator.java:223)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+
+Apr 01, 2018 11:20:53 PM UIL.FrameAdministrator btnNewcustomerActionPerformed
+SEVERE: null
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameAdministrator.btnNewcustomerActionPerformed(FrameAdministrator.java:468)
+	at UIL.FrameAdministrator.access$200(FrameAdministrator.java:31)
+	at UIL.FrameAdministrator$3.actionPerformed(FrameAdministrator.java:223)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+
+Apr 01, 2018 11:21:07 PM UIL.FrameAdministrator btnNewcustomerActionPerformed
+SEVERE: null
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameAdministrator.btnNewcustomerActionPerformed(FrameAdministrator.java:468)
+	at UIL.FrameAdministrator.access$200(FrameAdministrator.java:31)
+	at UIL.FrameAdministrator$3.actionPerformed(FrameAdministrator.java:223)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:708)
+	at java.awt.EventQueue$4.run(EventQueue.java:706)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+
+Apr 01, 2018 11:36:40 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:37:06 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:42:22 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:43:38 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:43:58 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:45:06 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:45:23 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:45:36 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:52:15 PM UIL.FrameNewcustomer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameNewcustomer$captureImage.run(FrameNewcustomer.java:70)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:52:17 PM UIL.FrameNewcustomer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameNewcustomer$captureImage.run(FrameNewcustomer.java:67)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:55:31 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 01, 2018 11:55:45 PM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:22:34 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:35:51 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:37:44 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:37:56 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:38:53 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:39:23 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:39:39 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:40:14 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:40:25 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:41:03 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:41:17 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:41:31 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:41:50 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:42:11 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:43:36 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:66)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:43:48 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:48:13 AM UIL.FrameRecognizer$captureImage run
+WARNING: videoInput.setupDevice() Error: Could not setup device.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.setupDevice() Error: Could not setup device.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:111)
+	at org.bytedeco.javacv.VideoInputFrameGrabber.start(VideoInputFrameGrabber.java:101)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:63)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:51:13 AM UIL.FrameRecognizer$captureImage run
+WARNING: avformat_open_input() error -2: Could not open input "/dev/video0". (Has setFormat() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: avformat_open_input() error -2: Could not open input "/dev/video0". (Has setFormat() been called?)
+	at org.bytedeco.javacv.FFmpegFrameGrabber.startUnsafe(FFmpegFrameGrabber.java:572)
+	at org.bytedeco.javacv.FFmpegFrameGrabber.start(FFmpegFrameGrabber.java:508)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:64)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:51:43 AM UIL.FrameNewcustomer$captureImage run
+WARNING: videoInput.getPixels() Error: Could not get pixels.
+org.bytedeco.javacv.FrameGrabber$Exception: videoInput.getPixels() Error: Could not get pixels.
+	at org.bytedeco.javacv.VideoInputFrameGrabber.grab(VideoInputFrameGrabber.java:171)
+	at UIL.FrameNewcustomer$captureImage.run(FrameNewcustomer.java:70)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:57:47 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:58:02 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:58:52 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 12:59:00 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 1:00:04 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 02, 2018 1:00:19 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 04, 2018 12:50:34 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 10:44:42 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 10:45:11 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 10:45:43 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 10:46:08 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 10:46:48 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 10:47:15 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 10:47:38 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:03:36 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:17:02 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:17:21 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:18:58 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:19:32 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:19:46 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:20:14 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:20:42 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:21:09 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:21:39 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:22:00 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:22:13 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:40:50 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 1:43:11 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 2:07:09 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 2:23:11 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 2:23:30 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 2:24:03 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 2:24:17 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 2:24:25 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 05, 2018 2:25:11 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:36:18 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:36:31 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:37:15 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:55:28 AM UIL.FrameNewcustomer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameNewcustomer$captureImage.run(FrameNewcustomer.java:73)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:58:52 AM UIL.FrameNewcustomer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameNewcustomer$captureImage.run(FrameNewcustomer.java:73)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 2:37:59 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 2:38:23 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 2:38:29 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 2:39:13 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 2:40:55 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 2:41:15 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 2:41:55 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 3:49:30 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 8:24:09 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 8:24:27 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 8:24:45 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 8:54:54 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 8:56:10 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 8:56:22 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 8:58:10 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 8:58:43 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:08:02 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:18:56 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:19:21 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:19:25 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:27:21 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:27:50 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:28:28 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:28:43 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:29:42 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:29:52 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:32:27 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:33:39 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:34:21 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:34:53 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:55:26 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:56:33 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:56:46 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 9:56:55 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 10:11:17 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 10:12:50 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 10:14:37 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 10:18:20 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 10:20:44 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 10:22:29 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 10:23:08 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 10:50:13 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 10:51:20 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 10:53:21 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 11:30:05 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 11:30:19 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 11:33:20 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 07, 2018 11:37:08 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 08, 2018 9:36:12 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 08, 2018 9:37:06 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 08, 2018 9:37:41 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 08, 2018 9:38:44 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 08, 2018 10:35:39 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 08, 2018 10:55:55 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Apr 08, 2018 10:56:18 AM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jun 04, 2018 10:35:45 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
+Jun 04, 2018 10:36:26 PM UIL.FrameRecognizer$captureImage run
+WARNING: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+org.bytedeco.javacv.FrameGrabber$Exception: retrieve() Error: Could not retrieve frame. (Has start() been called?)
+	at org.bytedeco.javacv.OpenCVFrameGrabber.grab(OpenCVFrameGrabber.java:251)
+	at UIL.FrameRecognizer$captureImage.run(FrameRecognizer.java:68)
+	at java.lang.Thread.run(Thread.java:745)
+
