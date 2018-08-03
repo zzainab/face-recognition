@@ -79,45 +79,45 @@ public class CustomersDBTest {
     /**
      * Test of getDetails method, of class CustomersDB.
      */
-    @Test
+    /*@Test
     public void testGetDetails() throws SQLException {
-        System.out.println("getDetails");
-        Customers obj = new Customers();
-        obj.setID(1);
-        int mobr=0;
-        CustomersDB instance = new CustomersDB();
-        int expResult = 771234567;
-        ResultSet result = instance.getDetails(obj);
-        while(result.next())
-        {
-            mobr=result.getInt(4);
-        }
-        assertEquals(expResult, mobr);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+    System.out.println("getDetails");
+    Customers obj = new Customers();
+    obj.setID(1);
+    int mobr=0;
+    CustomersDB instance = new CustomersDB();
+    int expResult = 771234567;
+    ResultSet result = instance.getDetails(obj);
+    while(result.next())
+    {
+    mobr=result.getInt(4);
     }
-
+    assertEquals(expResult, mobr);
+    // TODO review the generated test code and remove the default call to fail.
+    //fail("The test case is a prototype.");
+    }*/
     /**
      * Test of getAccountdetails method, of class CustomersDB.
      */
-    @Test
+    
+    /* @Test
     public void testGetAccountdetails() throws SQLException {
-        System.out.println("getAccountdetails");
-        Customers obj = new Customers();
-        obj.setID(1);
-        obj.setPin(1234);
-        CustomersDB instance = new CustomersDB();
-        int expResult = 260320181;
-        int acc=0;
-        ResultSet result = instance.getAccountdetails(obj);
-        while(result.next())
-        {
-            acc=result.getInt(2);
-        }
-        assertEquals(expResult,acc);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+    System.out.println("getAccountdetails");
+    Customers obj = new Customers();
+    obj.setID(1);
+    obj.setPin(1234);
+    CustomersDB instance = new CustomersDB();
+    int expResult = 260320181;
+    int acc=0;
+    ResultSet result = instance.getAccountdetails(obj);
+    while(result.next())
+    {
+    acc=result.getInt(2);
     }
+    assertEquals(expResult,acc);
+    // TODO review the generated test code and remove the default call to fail.
+    //fail("The test case is a prototype.");
+    }*/
 
     /**
      * Test of widthDrawmoney method, of class CustomersDB.
@@ -139,20 +139,21 @@ public class CustomersDBTest {
     /**
      * Test of getAlldetails method, of class CustomersDB.
      */
-    @Test
+    
+    /* @Test
     public void testGetAlldetails() throws SQLException {
-        System.out.println("getAlldetails");
-        CustomersDB instance = new CustomersDB();
-        int expResult = 24,id=0;
-        ResultSet result = instance.getAlldetails();
-        while(result.next())
-        {
-            id=result.getInt(1);
-        }
-        assertEquals(expResult, id);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+    System.out.println("getAlldetails");
+    CustomersDB instance = new CustomersDB();
+    int expResult = 24,id=0;
+    ResultSet result = instance.getAlldetails();
+    while(result.next())
+    {
+    id=result.getInt(1);
     }
+    assertEquals(expResult, id);
+    // TODO review the generated test code and remove the default call to fail.
+    //fail("The test case is a prototype.");
+    }*/
 
     /**
      * Test of customerTable method, of class CustomersDB.

@@ -48,7 +48,7 @@ public class AdminDBTest {
     public void testLogin() throws SQLException {
         System.out.println("login");
         Admin obj = new Admin();
-        obj.setUsername("E007");
+        obj.setUsername("E003");
         obj.setPassword("123abc");
         AdminDB instance = new AdminDB();
         int expResult = 1;
@@ -70,7 +70,7 @@ public class AdminDBTest {
     public void testAddUser() {
         System.out.println("addUser");
         Admin obj = new Admin();
-        obj.setUsername("E008");
+        obj.setUsername("E003");
         obj.setPassword("123abc");
         AdminDB instance = new AdminDB();
         int expResult = 1;
@@ -102,11 +102,11 @@ public class AdminDBTest {
     public void testGetAlldetails() throws SQLException {
         System.out.println("getAlldetails");
         AdminDB instance = new AdminDB();
-        String expResult = "E007",result="";
+        String expResult = "E003",result="";
         ResultSet rs = instance.getAlldetails();
         while(rs.next())
         {
-            result=rs.getString(1);
+            result=rs.getString(2);
         }
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
