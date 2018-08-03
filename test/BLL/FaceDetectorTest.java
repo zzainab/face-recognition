@@ -48,7 +48,7 @@ public class FaceDetectorTest {
     @Test
     public void testDetectFace() throws IOException {
         System.out.println("detectFace");
-        File file = new File("C:\\Users\\User\\Desktop\\facerec1\\Detection1.jpg");
+        File file = new File("C:\\Users\\User\\Desktop\\facerec1\\face.jpg");
         BufferedImage imgfile=ImageIO.read(file);
         FaceDetector instance = new FaceDetector();
         int expResult = 1;
