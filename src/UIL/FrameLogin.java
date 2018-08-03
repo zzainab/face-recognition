@@ -34,7 +34,7 @@ public class FrameLogin extends javax.swing.JFrame {
         initComponents();
          try
         {
-            fh = new FileHandler(".\\Loggers\\Logger.log", true);
+            fh = new FileHandler(".\\Logger\\Logger.log", true);
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter();  
             fh.setFormatter(formatter); 
@@ -67,7 +67,7 @@ public class FrameLogin extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Login - Admin");
 
-        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel1.setText("LOGIN");

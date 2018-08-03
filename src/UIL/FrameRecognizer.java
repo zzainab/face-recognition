@@ -101,7 +101,7 @@ public class FrameRecognizer extends javax.swing.JFrame {
         capture();
         try
         {
-            fh = new FileHandler(".\\Loggers\\Logger.log", true);
+            fh = new FileHandler(".\\Logger\\Logger.log", true);
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter();  
             fh.setFormatter(formatter); 

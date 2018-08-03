@@ -45,7 +45,7 @@ public class FrameAtm extends javax.swing.JFrame {
         initComponents();
         try
         {
-            fh = new FileHandler(".\\Loggers\\Logger.log", true);
+            fh = new FileHandler(".\\Logger\\Logger.log", true);
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter();  
             fh.setFormatter(formatter); 
@@ -65,7 +65,7 @@ public class FrameAtm extends javax.swing.JFrame {
         initComponents();
         try
         {
-            fh = new FileHandler(".\\Loggers\\Logger.log", true);
+            fh = new FileHandler(".\\Logger\\Logger.log", true);
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter();  
             fh.setFormatter(formatter); 
@@ -139,7 +139,7 @@ public class FrameAtm extends javax.swing.JFrame {
         });
 
         labelName.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        labelName.setText("Mohamed Arshad");
+        labelName.setText("Fathima Zainab");
 
         btnViewdetails.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnViewdetails.setText("View details");

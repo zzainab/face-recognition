@@ -107,7 +107,7 @@ public class FrameNewcustomer extends javax.swing.JFrame {
         generateAccount();
          try
         {
-            fh = new FileHandler(".\\Loggers\\Logger.log", true);
+            fh = new FileHandler(".\\Logger\\Logger.log", true);
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter();  
             fh.setFormatter(formatter); 

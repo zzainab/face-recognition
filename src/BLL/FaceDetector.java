@@ -109,7 +109,7 @@ public class FaceDetector {
     private void logger(Exception e)
     {
         try {
-            fh = new FileHandler(".\\Loggers\\BLLLogger.log", true);
+            fh = new FileHandler(".\\Logger\\BLLLogger.log", true);
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter(); 
             fh.setFormatter(formatter);
