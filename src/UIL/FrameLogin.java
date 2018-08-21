@@ -32,6 +32,7 @@ public class FrameLogin extends javax.swing.JFrame {
      */
     public FrameLogin() {
         initComponents();
+         this.setLocationRelativeTo(null);
          try
         {
             fh = new FileHandler(".\\Logger\\Logger.log", true);

@@ -140,7 +140,7 @@ public class NeuralNet {
                     backProp.setLearningRate(lrate);
                     backProp.setMomentum(momentum);
                     backProp.setMaxError(0.01);
-                    backProp.setMaxIterations(20000);
+                    backProp.setMaxIterations(30000);
                     neuralNet.setLearningRule(backProp);
                     neuralNet.learn(trainingSet);
                     neuralNet.save(".\\faceRec.nnet");

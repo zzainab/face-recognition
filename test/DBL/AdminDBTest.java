@@ -49,7 +49,7 @@ public class AdminDBTest {
         System.out.println("login");
         Admin obj = new Admin();
         obj.setUsername("E003");
-        obj.setPassword("123abc");
+        obj.setPassword("abc123");
         AdminDB instance = new AdminDB();
         int expResult = 1;
         int a=0;
@@ -70,7 +70,7 @@ public class AdminDBTest {
     public void testAddUser() {
         System.out.println("addUser");
         Admin obj = new Admin();
-        obj.setUsername("E003");
+        obj.setUsername("E004");
         obj.setPassword("123abc");
         AdminDB instance = new AdminDB();
         int expResult = 1;
@@ -102,7 +102,7 @@ public class AdminDBTest {
     public void testGetAlldetails() throws SQLException {
         System.out.println("getAlldetails");
         AdminDB instance = new AdminDB();
-        String expResult = "E003",result="";
+        String expResult = "E004",result="";
         ResultSet rs = instance.getAlldetails();
         while(rs.next())
         {

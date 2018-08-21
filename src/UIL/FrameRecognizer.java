@@ -48,7 +48,7 @@ public class FrameRecognizer extends javax.swing.JFrame {
     FrameGrabber grabber;
     IplImage ipimg;
     OpenCVFrameConverter.ToIplImage converter=new OpenCVFrameConverter.ToIplImage();
-    BufferedImage bImg,captured,detected,hist;
+    BufferedImage bImg,captured,detected,hist,smooth;
     File file;
     String name,address;int mobile,acc,outputs;float bal,with;
     
@@ -98,6 +98,7 @@ public class FrameRecognizer extends javax.swing.JFrame {
      */
     public FrameRecognizer(){
         initComponents();
+         this.setLocationRelativeTo(null);
         capture();
         try
         {
@@ -392,13 +393,14 @@ public class FrameRecognizer extends javax.swing.JFrame {
                 else
                 {
                     hist=pobj.histogramEqualization(detected);
+                    smooth=pobj.SmoothImage(hist);
                     try {
-                        ImageIO.write(hist,"jpg",(new File(".\\recognized.jpg")));
+                        ImageIO.write(smooth,"jpg",(new File(".\\recognized.jpg")));
                     } catch (IOException ex) {
                         logger.log(Level.SEVERE, ex.getMessage(), ex);
                         fh.close();
                     }
-                    recognizeFaces(hist);
+                    recognizeFaces(smooth);
                 }
                 
             } 

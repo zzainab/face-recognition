@@ -43,6 +43,7 @@ public class FrameAtm extends javax.swing.JFrame {
      */
     public FrameAtm() {
         initComponents();
+         this.setLocationRelativeTo(null);
         try
         {
             fh = new FileHandler(".\\Logger\\Logger.log", true);

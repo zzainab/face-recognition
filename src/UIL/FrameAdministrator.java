@@ -39,6 +39,7 @@ public class FrameAdministrator extends javax.swing.JFrame {
      */
     public FrameAdministrator() {
         initComponents();
+        this.setLocationRelativeTo(null);
         adminTable();
         accountsTable();
         customerTable();

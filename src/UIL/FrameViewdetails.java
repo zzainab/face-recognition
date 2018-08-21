@@ -21,6 +21,7 @@ public class FrameViewdetails extends javax.swing.JFrame {
     
     public FrameViewdetails() {
         initComponents();
+         this.setLocationRelativeTo(null);
     }
     
     String name,address;

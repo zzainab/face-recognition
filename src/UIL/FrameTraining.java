@@ -42,6 +42,7 @@ public class FrameTraining extends javax.swing.JFrame {
     int id,output;
     public FrameTraining() {
         initComponents();
+         this.setLocationRelativeTo(null);
         //output=0;
         output=newUserid();
         try
