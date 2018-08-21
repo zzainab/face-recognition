@@ -245,7 +245,7 @@ public class PreProcess {
                             img1.setRGB(col, row, c.getRGB());
 
                     }
-                }
+                }//end
               
             
        return img1;
